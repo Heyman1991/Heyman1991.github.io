@@ -1,0 +1,62 @@
+.animation__intro{
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/img/content/intro__animation.jpg')
+}
+
+.animation{
+    animation: bounceIn 1s;
+    animation-delay: 1s;
+    position: relative;
+    animation-fill-mode: forwards;
+    opacity: 0;
+}
+
+.animation:hover .animation__title{
+    background-color:#131415;
+    
+     
+}
+
+
+.animation__intro:before{
+    content: '';
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #000000;
+    opacity: .5;
+}
+
+.animation__title{
+    width: 45px;
+    height: 172px;
+    background-color: #131415;
+}
+
+.animation__img--img{
+   
+    margin-bottom: 10px;
+}
+.animation__title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 172px;
+    height: 43px;
+    background-color: #f89513;
+    border-radius: 3px;
+    color:#fff;
+    text-transform: uppercase;
+    text-decoration: none;
+}

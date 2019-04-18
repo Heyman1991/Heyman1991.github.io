@@ -1,0 +1,29 @@
+
+
+
+.top__news{
+    padding: 100px 78px;
+}
+
+.top__elem{
+    overflow: hidden;
+    width: 150px;
+}
+
+
+
+
+.top__text span{
+    font-family: 'OpenSans-Bold';
+
+}
+
+
+.partners__logo--aside{
+    align-items: center;
+}
+.services__border{
+  padding: 30px 40px;
+  align-content: center;
+  margin: 0 auto;
+}

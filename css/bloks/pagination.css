@@ -1,0 +1,60 @@
+.page{
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    margin-left: 100px;
+    font-size: 17px;
+}
+
+.page_text{
+    
+    font-family: 'Roboto Lt';
+    padding-right: 10px;
+    color:#131415;
+}
+
+.bottom{
+    display: flex; 
+ }
+
+.bottom__numeral{
+    padding-right: 20px;
+    color: #000;
+}
+
+
+.numeral__numeral{
+    padding-right: 10px;
+}
+
+
+.number{
+    color: #000;
+    font-weight: bold;
+    font-family: 'Roboto';
+    text-decoration: none;
+    
+}
+
+.number__pagination{
+    border-radius: 5%;
+    height: 24px;
+    width: 25px;
+    background-color: #131415;
+    display: flex;
+    justify-content:center;
+    
+}
+
+.bottom__numeral .number__pagination{
+    color:#ffffff;
+    
+    
+
+}
+
+.number__number{
+    color:#000;
+    text-decoration: none;
+}
+

@@ -1,0 +1,11 @@
+@import url('./layout/normalize.css');
+@import url('./layout/base.css');
+@import url('./layout/fonts.css');
+@import url('./bloks/header.css');
+@import url('./bloks/feauteres.css');
+@import url('./bloks/footer.css');
+@import url('./bloks/desc.css');
+@import url('./bloks/pagination.css');
+@import url('./bloks/aside.css');
+@import url('./animation.css');
+@import url('./bloks/bounceIn.css');

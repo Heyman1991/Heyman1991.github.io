@@ -1,0 +1,248 @@
+.saturation__img {
+    padding-left: 50px;
+}
+
+.container{
+    display: flex;
+}
+
+.container___main{
+    margin-left: -120px;
+}
+
+/*--------------------------------------------------------------------------*/
+
+.nav__list {
+    align-items: center;
+    padding-left: 40px;
+    margin-bottom: 20px;
+}
+
+.nav__elem {
+    padding-top: 30px;
+}
+
+
+
+.nav__text {
+    right: 50px;
+    font-family: 'OpenSans-Bold';
+    color: #000000;
+}
+
+.nav__link:hover .nav__text{
+    color: #f89c23;
+}
+
+.nav__link--reviews .nav__text{
+    color: #f89c23;
+}
+
+.nav__link--reviews .nav__img--service{
+    width: 19px;
+    height: 14px;
+    background: -90px -10px url('/img/icon/css_sprites.png');
+}
+
+.nav__link--point .nav__text{
+    color: #f89c23;
+}
+
+.nav__link--point .nav__img--black{
+    width: 19px; 
+    height: 14px;
+    background: -49px -48px url('/img/icon/css_sprites.png');
+}
+
+.nav__link--office .nav__text{
+    color: #f89c23;
+}
+
+.nav__link--office .nav__img--feed{
+    width: 20px; 
+    height: 18px;
+    background:-50px -10px url('/img/icon/css_sprites.png');
+}
+
+
+.nav__img--black{
+    margin-right: 20px;
+    position: relative;
+    width: 19px; 
+    height: 14px;
+    background:  -90px -44px url('/img/icon/css_sprites.png');
+}
+
+.nav__link:hover .nav__img--black{
+    width: 19px; 
+    height: 14px;
+    background: -49px -48px url('/img/icon/css_sprites.png');
+}
+
+
+.nav__img--service{
+    margin-right: 20px;
+    
+    width: 19px; 
+    height: 14px;
+    background: -10px -48px url('/img/icon/css_sprites.png'); 
+}
+.nav__link:hover .nav__img--service{
+    width: 19px;
+    height: 14px;
+    background: -90px -10px url('/img/icon/css_sprites.png');
+}
+
+.nav__img--feed{
+    margin-right: 20px;
+    position: relative;  
+    width: 20px; 
+    height: 18px;
+    background: -10px -10px url('/img/icon/css_sprites.png') ;
+}
+.nav__link:hover .nav__img--feed{
+    width: 20px; 
+    height: 18px;
+    background:-50px -10px url('/img/icon/css_sprites.png');
+}
+
+.nav__link {
+    display: flex;
+    text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------*/
+
+
+.container__features--aside {
+    line-height: 25px;
+    padding: 20px 47px;
+    width: 275px;
+    height: 283px;
+    border: 2px solid black;
+}
+
+.news__container{
+    margin-left: 72px;
+}
+
+.container__pattern{
+    width: 274px;
+    height: 433px;
+    background: #131415;
+}
+.pattern__text{
+    display: flex;
+   flex-direction: column;
+    text-align: center;
+    height: 100%;
+    padding: 20px 20px;
+    line-height: 30px;
+    font-family: 'OpenSans-Light';
+    font-size: 20px;
+    color:#ffffff;  
+}
+
+.container__pattern{
+    background-image: url(/img/png/pattern.png); 
+    
+}
+
+
+/*--------------------------------------------------------------------*/
+
+.The__main--thing{ 
+    font-family: 'OpenSans-Bold';
+    padding-bottom: 40px;
+    font-size: 35px;
+}
+.The__main--services{
+    font-size: 25px;
+    font-family: 'OpenSans-Bold';
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.partners{
+    padding-top: 40px;
+}
+
+.partners__link--aside:hover .partners__logo--aside{
+      filter: grayscale(0%);
+      transform: scale(1.3,1.3);
+}
+
+
+.partners__logo--aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 60px;
+    filter: grayscale(100%);
+    transform: scale(1.1);
+}
+.partners__link--aside{
+    display: flex;
+    justify-content: center;
+}
+.services__border{
+    width: 270px;
+    height: 770px;
+    border: 1px solid black;
+}
+.services___network--aside{
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+.network__aside{
+    padding-top: 50px;
+}
+
+.network__img{
+    display: flex;
+    justify-content: center;
+    width: 130px;
+    
+}
+
+
+.network--socials{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+.network__title{
+    margin-right: -100px;
+    font-family: 'OpenSans-Bold';
+    font-size: 12px;
+
+}
+.title__aside{
+    font-size: 20px;
+    padding-bottom: 20px;
+    font-family: 'OpenSans-Bold';
+}
+.blok__title--aside{
+    font-family: 'OpenSans-Extrabold';
+}
+.blok__text{
+    font-family: 'Open Sans';
+}
+.The__main--thing--thing{
+    color: #f89c23;
+}
+
+.The__main--thing--title{
+    font-family: 'OpenSans-Bold';
+}
+
+.The__main--thing--thing  .The__main--thing--abs{
+    font-family: 'OpenSansLight-Italic';
+}
+
+.animation__title{
+    font-family: 'OpenSans-Bold';
+    font-size: 14px;
+}
+

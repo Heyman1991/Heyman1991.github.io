@@ -1,0 +1,37 @@
+.footer {
+    height: 70px;
+    background-color: #131415;
+    color: #fff;
+    margin-top: 75px;
+    padding: 0 20px;
+    
+   
+}
+.footer__network{
+    width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.footer__text {
+    font-family: 'OpenSans-Bold';
+    
+}
+
+.footer__text span{
+    font-weight: bold;
+}
+
+
+
+.footer__container{
+    height: 100px;
+      
+}
+
+.footer__text{
+    font-family: 'Roboto Lt'; 
+
+}
